@@ -1,0 +1,26 @@
+{
+  "last": "Default",
+  "backgroundType": "DEFAULT",
+  "commonDirType": "DEFAULT",
+  "hasProxy": false,
+  "hasProxyAuth": false,
+  "proxyType": "HTTP",
+  "proxyPort": 0,
+  "theme": "blue",
+  "localization": "def",
+  "downloadType": "bmclapi",
+  "fontFamily": "Consolas",
+  "fontSize": 12.0,
+  "logLines": 500,
+  "authlibInjectorServers": [
+    {
+      "url": "https://mc.211server.net/api/yggdrasil/",
+      "metadataResponse": "{\"meta\":{\"serverName\":\"211 Minecraft\",\"implementationName\":\"Yggdrasil API for Blessing Skin\",\"implementationVersion\":\"4.8.1\",\"links\":{\"homepage\":\"https:\\/\\/mc.211server.net\",\"register\":\"https:\\/\\/mc.211server.net\\/auth\\/register\"}},\"skinDomains\":[\"mc.211server.net\"],\"signaturePublickey\":\"-----BEGIN PUBLIC KEY-----\\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAypyu9fIzqXFAtcR8TDDV\\nhHT7\\/g9mRcgxlmZagPMNvDv+yk6y0DUEnLZwhvOshoA84R87U\\/M06IO35sVcbT4a\\nP0BeMCndeDSxU9rBWHowQTbq3d4XINYCKrX9HdzEw8bwgtYY8lIwRMOOlU9KDOGt\\nJ4j5OcdyKhEdv+Lj3f+2KWnDDfEzYJDQah7tX94ESSsrvNWf2B5nBwi4ajWskVvk\\nlrGUUkZ6W8YS+h2LqPlayAjQV46SRImO19rTySzwT+ToFzQeEhNyNIkbYNryWjp3\\n1rM9fMZ7+rr11RqvRgD9dcbG3CCofIJ57\\/CrPw3wkJyhe34JNI6BrSHqARbQmb8C\\nYX8NrFR9VTcYaeKkZ+kZ7qJqrxwYj2EP547KEz2lCqLjl8WzBFXQJeL+46ruZT2s\\nQMYST\\/nTsa2WcD998+54SGHTaLWvQhGea6QOhCLYOd8zrJ1vZljmmoj7AG1Iuknn\\nyc5O0JS\\/FHJjIXx6Rko3HtckxEiNvefhZym3+YZ\\/9E\\/G1K8OJ+tsUKCetSWhHGPP\\nFH9IDQcFLOpvq5aTDUYK0++H5hwktSzRFLqY5+Exu1xyKMlasWTWAdLBAXT\\/tOsm\\nCRBhwbEQ0VBVu9rYwEJhdwMAj6qvvnKm0M\\/xlcc52tY3zZf0ivufjL6aN6cWov3\\/\\nxHzseNxcMyTSA17PLRPJYesCAwEAAQ\u003d\u003d\\n-----END PUBLIC KEY-----\\n\"}",
+      "metadataTimestamp": 1595938792046
+    }
+  ],
+  "updateChannel": "STABLE",
+  "_version": 0,
+  "uiVersion": 0,
+  "preferredLoginType": "authlibInjector"
+}
