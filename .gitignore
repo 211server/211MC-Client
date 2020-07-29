@@ -12,5 +12,5 @@
 
 /.minecraft/versions/*/natives
 
-/.minecraft/config
-
+/.minecraft/config/*
+!/.minecraft/config/quark.cfg
