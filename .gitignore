@@ -1,1 +1,16 @@
 .idea
+
+/.minecraft/.mixin.out
+/.minecraft/logs
+/.minecraft/mods/*/
+/.minecraft/resourcepacks
+/.minecraft/saves
+/.minecraft/tv-cache
+
+/.minecraft/*.dat
+/.minecraft/launcher_profiles.json
+
+/.minecraft/versions/*/natives
+
+/.minecraft/config
+
