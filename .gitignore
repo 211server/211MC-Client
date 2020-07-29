@@ -8,6 +8,7 @@
 /.minecraft/tv-cache
 
 /.minecraft/*.dat
+!/.minecraft/servers.dat
 /.minecraft/launcher_profiles.json
 
 /.minecraft/versions/*/natives
