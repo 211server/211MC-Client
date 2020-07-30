@@ -2,7 +2,10 @@
   "id": "1.12.2",
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --versionType Forge",
   "arguments": {
-    "game": []
+    "game": [
+      "--tweakClass",
+      "optifine.OptiFineForgeTweaker"
+    ]
   },
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "jar": "1.12.2",
@@ -773,18 +776,21 @@
           }
         }
       ]
+    },
+    {
+      "name": "optifine:OptiFine:1.12.2_HD_U_F5:installer"
     }
   ],
   "downloads": {
-    "client": {
-      "url": "https://launcher.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar",
-      "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
-      "size": 10180113
-    },
     "server": {
       "url": "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar",
       "sha1": "886945bfb2b978778c3a0288fd7fab09d315b25f",
       "size": 30222121
+    },
+    "client": {
+      "url": "https://launcher.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar",
+      "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
+      "size": 10180113
     }
   },
   "logging": {},
@@ -1448,15 +1454,15 @@
         }
       ],
       "downloads": {
-        "client": {
-          "url": "https://launcher.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar",
-          "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
-          "size": 10180113
-        },
         "server": {
           "url": "https://launcher.mojang.com/v1/objects/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar",
           "sha1": "886945bfb2b978778c3a0288fd7fab09d315b25f",
           "size": 30222121
+        },
+        "client": {
+          "url": "https://launcher.mojang.com/v1/objects/0f275bc1547d01fa5f56ba34bdc87d981ee12daf/client.jar",
+          "sha1": "0f275bc1547d01fa5f56ba34bdc87d981ee12daf",
+          "size": 10180113
         }
       },
       "logging": {
@@ -1618,6 +1624,26 @@
       "type": "release",
       "time": "2019-05-14T01:02:00+08:00",
       "releaseTime": "1960-01-01T15:00:00+08:00"
+    },
+    {
+      "id": "optifine",
+      "version": "HD_U_F5",
+      "priority": 10000,
+      "arguments": {
+        "game": [
+          "--tweakClass",
+          "optifine.OptiFineTweaker"
+        ]
+      },
+      "mainClass": "net.minecraft.launchwrapper.Launch",
+      "libraries": [
+        {
+          "name": "optifine:OptiFine:1.12.2_HD_U_F5"
+        },
+        {
+          "name": "optifine:launchwrapper-of:2.1"
+        }
+      ]
     }
   ]
 }

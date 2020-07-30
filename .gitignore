@@ -9,6 +9,7 @@
 /.minecraft/crash-reports
 /.minecraft/assets/skins
 
+/.minecraft/usercache.json
 /.minecraft/null
 /.minecraft/*.dat
 !/.minecraft/servers.dat
@@ -18,3 +19,7 @@
 
 /.minecraft/config/*
 !/.minecraft/config/quark.cfg
+
+/.minecraft/journeymap/data
+/.minecraft/journeymap/journeymap.log
+/.minecraft/journeymap/icon
