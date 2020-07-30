@@ -6,7 +6,10 @@
 /.minecraft/resourcepacks
 /.minecraft/saves
 /.minecraft/tv-cache
+/.minecraft/crash-reports
+/.minecraft/assets/skins
 
+/.minecraft/null
 /.minecraft/*.dat
 !/.minecraft/servers.dat
 /.minecraft/launcher_profiles.json
